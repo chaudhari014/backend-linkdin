@@ -1,5 +1,5 @@
 const express=require("express")
-const {connection}=require("./db/db")
+const {connection}=require("./db")
 const cors=require("cors")
 const {users}=require("./routes/user.route")
 const {auth}=require("./middleware/auth")
